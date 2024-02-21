@@ -1,0 +1,123 @@
+@import"templatecolours.css";
+
+
+body{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    color: black;
+    line-height: 1.6;
+    
+}
+
+
+nav>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav>ul>li{
+    float: left;
+    
+}
+
+nav>ul>li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    float: left;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    max-width: 960px;
+    
+}
+ li a:hover{
+    color:rgb(246, 222, 2) ;
+ }
+
+img.one{
+    width: 150px;
+    padding-bottom: 20px;
+    margin-top: 50px;   
+}
+
+img.two{
+
+    width: 350px;
+    height: 400px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 5px;
+    margin-left: 5px;
+    
+    
+}
+img.four{
+    width: 200px;
+    height: 200px;
+}
+
+img.five{
+    width: 200px;
+    height: 200px;
+}
+
+img.six{
+    width: 200;
+    height: 200px;
+}
+div.container{
+    margin-top:  auto;
+    overflow: auto;
+    padding-left: 10px;
+    
+}
+
+
+
+h1.one{
+    float: right;
+    margin-left: 90px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    margin-top: 90px;
+    font-weight: 200px;
+  
+}
+
+p.one{
+    float: left;
+    margin-left: 2px;
+    padding-top: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+footer{
+    text-align: center;
+    border-top: solid;
+    padding-top: 10px;
+}
+
+main{
+    padding-right: 0 !important;
+    overflow: hidden;
+}
+
+section.two{
+
+    max-width: 800px;
+}
+
+.submit:hover{
+    background-color: #45a049;
+
+}
